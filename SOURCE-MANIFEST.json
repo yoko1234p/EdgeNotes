@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "app": "EdgeNotes",
+  "sourceProject": "DeskTools",
+  "license": "GPL-3.0-only",
+  "sharedSourceHashes": {
+    "AppLocalizationKit": "0851a965a9dc105658cf8d362b0a14ad13b5ee0b02b6209ce89c7be404bd0174",
+    "LocalWorkflowKit": "de255ec749f18ae4f0850e00a0f176cab040782dde1b8f111f58cad7fbf2898e"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 333,
+      "sha256": "da5602dbd93009bbe59dc253fcc836e23994fc598bf297775d8b75db1f594b61"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1753,
+      "sha256": "1807d13bdd8c149eaa6dd4dbfe7916c7094f454da7da2f9a6f767bc4a30b8ce7"
+    },
+    {
+      "path": "DeskTools/.gitignore",
+      "bytes": 55,
+      "sha256": "c915403194b6b63dc2ff283eef02ee37c416eb94610c512b75627c97e947a627"
+    },
+    {
+      "path": "DeskTools/.swift-format",
+      "bytes": 74,
+      "sha256": "bd76f80cb47e96d65b46896d54816d26996fdda48304dffcc53dcb2d3c82671b"
+    },
+    {
+      "path": "DeskTools/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "DeskTools/Package.swift",
+      "bytes": 1218,
+      "sha256": "c37cc820543f38a50cd5f795b31c77f082f153ce1ea1338f90b7ba6d8b58881f"
+    },
+    {
+      "path": "DeskTools/README.md",
+      "bytes": 178,
+      "sha256": "9daf458be68ff072d62ae4eda3b728013e792a4665dcd0b4f37e795276af64f9"
+    },
+    {
+      "path": "DeskTools/Scripts/build.sh",
+      "bytes": 3725,
+      "sha256": "4cb586a581c6b9a697ce7f53e090bfb3ebc60a9caf1a160d99fc029302bd2056"
+    },
+    {
+      "path": "DeskTools/Scripts/install.sh",
+      "bytes": 2726,
+      "sha256": "371535b5ae18cab1b70a7dd88b0b67e7974ab313acf21778eb865e10586e247d"
+    },
+    {
+      "path": "DeskTools/Scripts/make-icons.swift",
+      "bytes": 2584,
+      "sha256": "c403c00c18ee5c079b81060779153c1b8659fd63837700f35d491844fd397e89"
+    },
+    {
+      "path": "DeskTools/Scripts/package.py",
+      "bytes": 3856,
+      "sha256": "80c39efcbe347dd5129638111cf586aaceac47f0ba6adc65807559f00892c49b"
+    },
+    {
+      "path": "DeskTools/Scripts/test.sh",
+      "bytes": 128,
+      "sha256": "fd8bb75c9835c070c0aca847c99185b7fbb3754ed9739d652e68ab2c90e650ba"
+    },
+    {
+      "path": "DeskTools/Sources/DeskCore/BoundedFile.swift",
+      "bytes": 2091,
+      "sha256": "710f33b8c84724de04b69df8e8b93f50da4ea51d04ca53d456336d6cc4d41c5d"
+    },
+    {
+      "path": "DeskTools/Sources/DeskCore/Localization.swift",
+      "bytes": 592,
+      "sha256": "66aa93dbbe797b9e65230ffc99bacdc9c712ba35859e40ee98cadac1882f2891"
+    },
+    {
+      "path": "DeskTools/Sources/DeskCore/Resources/Localization/en.lproj/Localizable.strings",
+      "bytes": 65308,
+      "sha256": "5abd9be83a5127d5c7b3f6a7c6a30ec33e4654f16957b398ed88dd7c77182b24"
+    },
+    {
+      "path": "DeskTools/Sources/DeskCore/Resources/Localization/zh-Hans.lproj/Localizable.strings",
+      "bytes": 59542,
+      "sha256": "bf8bfc45da647900ad2276d345b70ef76bcf13fa3329e1d90dee9361f3fa1376"
+    },
+    {
+      "path": "DeskTools/Sources/DeskCore/Resources/Localization/zh-Hant.lproj/Localizable.strings",
+      "bytes": 59548,
+      "sha256": "aa39ef418c9499852d0ad311149914104610b8d78f4fc59acf4c94a2eeb98327"
+    },
+    {
+      "path": "DeskTools/Sources/DeskUI/AppSupport.swift",
+      "bytes": 8216,
+      "sha256": "c6c5f87aa76c6257e60a1db9ca33d11fee7308877f52a6b8f89350f03cbac605"
+    },
+    {
+      "path": "DeskTools/Sources/DeskUI/NoteDestinationsMenu.swift",
+      "bytes": 1708,
+      "sha256": "97b4c99fde6bf57b49f284ebc9e741c09954fd0599fd7cbc739e25ac598e8147"
+    },
+    {
+      "path": "DeskTools/Sources/DeskUI/TransientFeedback.swift",
+      "bytes": 1724,
+      "sha256": "1a622fbb87576630737c50618100d8152b8d6930cd0fdd5943c1f7329b5c3945"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/InlineNoteEditor.swift",
+      "bytes": 27210,
+      "sha256": "03b3d7d1fbf123b0056e814ec814044552914c91425b597c90d362a5678a7a06"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NoteAttributedContent.swift",
+      "bytes": 5695,
+      "sha256": "29f03451b76c207ee12f4220f0e5d25d3fa76cc06c992491c66fefea53b12779"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NoteContentPreview.swift",
+      "bytes": 6110,
+      "sha256": "a8af2717a24ba9832c2a4b3628d28a0d254e1eea44bc15df70a00804ee4e5a76"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NoteImageView.swift",
+      "bytes": 2317,
+      "sha256": "33e3d798f4c941d9eda36bdb6a503a168e9c3d0e58d266b9d40ff5abbe3d16fb"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesApp.swift",
+      "bytes": 22625,
+      "sha256": "89e1bdf6e00610614b9272ee37560b3ff92b4456935c38a53fff1f5a675561d0"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesClipboardImages.swift",
+      "bytes": 2618,
+      "sha256": "d4c6fe145725288e289e3aa5a453588c410d665c5311e0a15ccbcec4270ce043"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesExchangeRateStore.swift",
+      "bytes": 2615,
+      "sha256": "0bbc6d03e83dbe75fd4a994f3694853efd79305d6e600eafffe608142fbe267f"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesIncoming.swift",
+      "bytes": 7349,
+      "sha256": "dfe2ba79ad796931e31b73dd31cd66e6e6a5922e6008932bcf36d5ecebfceead"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesIncomingView.swift",
+      "bytes": 3689,
+      "sha256": "1e4de69274431d48b359fb0a157cb4d14e54d5112cb1699bf978a15c4cda07ed"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesLoginItem.swift",
+      "bytes": 2121,
+      "sha256": "c6c5637726510ce032ca3ec3eeb0d2054991da7160077963a22dcee4cf0b5211"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesModel.swift",
+      "bytes": 20851,
+      "sha256": "99b56e8ae058cd08c1bc0ea79cbc56963c5867d63be9ba28c9130480bca72fc6"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesOutsideClick.swift",
+      "bytes": 672,
+      "sha256": "3400083cdba3e3e8bc3c625b2ec49f1eb92056e25fd9650fd07717da8eca2912"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesTemplatesView.swift",
+      "bytes": 4748,
+      "sha256": "80291ce0a030d39b31fc82cfe827f3fc9eb6d573dc8c4877111ecd9cd764951a"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesView.swift",
+      "bytes": 33705,
+      "sha256": "56801494b41bc61984c37e7ac17c6faeb775666bd4dbc1c95e4780bc667e7617"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/NotesWorkflows.swift",
+      "bytes": 6551,
+      "sha256": "f7680c5096f2a768fa19d5ed153c98d20e80f3fdcff694ea425823905e0a6cc4"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/OpenBar.swift",
+      "bytes": 3556,
+      "sha256": "625257d9f9d2a4513ebefe442d384bbaf863ecad740f719650ead764695e63db"
+    },
+    {
+      "path": "DeskTools/Sources/EdgeNotes/SidebarComponents.swift",
+      "bytes": 4945,
+      "sha256": "314ce677b93c5e1e9a0f2b90a8d3409637090fa1875bfd56f949abdabc3daa1a"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/EdgePanelWorkflow.swift",
+      "bytes": 5075,
+      "sha256": "a7c67d7870a89bb900c8a958e574db5408a1168a13d258961324f416ee8fe052"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteCalculationText.swift",
+      "bytes": 4819,
+      "sha256": "19f2fb87c2461500b3cd5d284634c0e4e6a1261ea2b4d0942222140481ca83ea"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteCalculations.swift",
+      "bytes": 30270,
+      "sha256": "fe382981e901692bb6b850da017777e80011607c746df0f59a2e82f552e2ce34"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteChecklist.swift",
+      "bytes": 1063,
+      "sha256": "647a72c48b0384cfadffd0a64b23512941c24d42a0717d47975211d00e73c539"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteExchangeRates.swift",
+      "bytes": 2316,
+      "sha256": "31c9a4ff8514708c9a668f41b04cbf6fc36da1575265332256bef55ce53587a0"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteImagePlacement.swift",
+      "bytes": 3586,
+      "sha256": "2e34740012ad0654f3a03f6e2d9afc45844199bdf3c542724167a704c9593fe0"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteImages.swift",
+      "bytes": 3180,
+      "sha256": "fc954eaaac8b6b4f02c20de02d9efc741b2768109fc9310504bb98c31fb26572"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteResources.swift",
+      "bytes": 9625,
+      "sha256": "6954658d538ad542901264491a92ffc401d93494264d2579649e32d67ae89fb3"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteTemplates.swift",
+      "bytes": 2625,
+      "sha256": "b06c982286773bda8eb0d1ea1af3768b9f7fd2f6a8aa40bc1e94849cdfa0b0bd"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteTextFormatting.swift",
+      "bytes": 2962,
+      "sha256": "e03b40d4f532c4be0978b138118f2ea281f53f476870f3c31310fcc19b12f0ee"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NoteTextLines.swift",
+      "bytes": 1585,
+      "sha256": "729f498975149232a285e621a0a3c7549e55ad278f9e46916bba7e0a7fd91ecb"
+    },
+    {
+      "path": "DeskTools/Sources/NotesCore/NotesRepository.swift",
+      "bytes": 13333,
+      "sha256": "252209b3bc4346f6936f26be285dbd778106bbbfb3835332a40b948410f38561"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/CoreTests.swift",
+      "bytes": 4960,
+      "sha256": "5a1fd3ed12c00f58874d07a3fc6f636e5e90e4c130c9e5ccdeb0a577395cbf71"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/EdgePanelWorkflowTests.swift",
+      "bytes": 9400,
+      "sha256": "f27710692abd1b4ed9054036bea0de39141d8542d5ba1036ca47f13ada2b8ce1"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/ModelTests.swift",
+      "bytes": 2599,
+      "sha256": "e3fd996a3269dd621ce3fa4e64c4e2db2fb7053f7da3f9c79274296549d3a618"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NativeEditorLayoutTests.swift",
+      "bytes": 1651,
+      "sha256": "d155f46b797fe47ee73fa445b3bcec36ae0516e95dc3bc138c5bef65dd65487b"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NoteCalculationTests.swift",
+      "bytes": 10131,
+      "sha256": "455da02af51705efe5b7ea497d0d65cbeb905d8f5dcf9edbc1307cea87810d1d"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NoteCalculationTextTests.swift",
+      "bytes": 3887,
+      "sha256": "9fa4e593dd729ce2f3e1d24e6e53c370f941133dc88b5fe04693be7f3baec651"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NoteExchangeRateTests.swift",
+      "bytes": 1170,
+      "sha256": "c394a03c2f44f7d0df878a273feec4f275879b8d196fda86c0d014ff0fe7e149"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NoteFormattingTests.swift",
+      "bytes": 1939,
+      "sha256": "e4d728f9458febfe4fc5883eba8795b467c38e5fc838efd8c35bbe666e85399c"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NoteInlineImageTests.swift",
+      "bytes": 2134,
+      "sha256": "9468c3dcd2ac9faf936f0f697bc1b295b50d83b6cd877cbe08afb18dd1227f06"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NoteNativeContentTests.swift",
+      "bytes": 15292,
+      "sha256": "13ab583f57b53c4c47712fd5b8889575b75de204138a1b5ccb07971d8ae6bc8e"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NoteResourceTests.swift",
+      "bytes": 8100,
+      "sha256": "5bbfa441a92cdda55e7c608f3a5dc900560bf29fd2fa62757f611ba58fbff9e9"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NotesImagePasteTests.swift",
+      "bytes": 5434,
+      "sha256": "ec06c64a6fbf8ae2a0a938cab12f8175f9fe39f5aa93d3b20d6828bb4af603f6"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NotesIncomingTests.swift",
+      "bytes": 12183,
+      "sha256": "f780677fc76fccc4b1b28be65f3bfcfd5fd1420cea831d588204705be5c5a2c8"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NotesLoginItemTests.swift",
+      "bytes": 3508,
+      "sha256": "f9d7fa846862becd35bae3659aed03ef94d65810ce345f786f87a2eb37dba97f"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NotesOutsideClickTests.swift",
+      "bytes": 3617,
+      "sha256": "f9150451d717b8f8fea8c6cc6c0507efe28155e0ae6a33172809d70dd8e9f00e"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NotesTrashTests.swift",
+      "bytes": 3013,
+      "sha256": "5af2607d3db41def01ad937431c161d83e2830777053218aed31351de46ead9a"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/NotesWorkflowTests.swift",
+      "bytes": 4605,
+      "sha256": "ddd62058bff8af7c378cd86d25826712b6ca8a69da6e14218924eaff27dd611e"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/SidebarAndImportTests.swift",
+      "bytes": 10539,
+      "sha256": "555cc2723e09f614451cf7b260442f40048ea9cff4ac2dc824757028862d483c"
+    },
+    {
+      "path": "DeskTools/Tests/DeskToolsTests/WorkflowTests.swift",
+      "bytes": 4035,
+      "sha256": "5826f488505082bf44f17c59ada8e8f326351b69d2bac31544e9d8e482812bc7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2115,
+      "sha256": "e3bf790bad705d895b77ec21d4cece8544f074cd122731998ff9ee446bbe2b23"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 763,
+      "sha256": "001ff77a4ad5acb43802cfba1cb65612184660ba428ca11cd6c94a1abff338ce"
+    },
+    {
+      "path": "SIGNING.md",
+      "bytes": 589,
+      "sha256": "f53249e8ed2b79b9d1e9e9567ecf1a31c30b9e417a6e00418971619118e0a9cb"
+    },
+    {
+      "path": "Shared/AppLocalizationKit/Package.swift",
+      "bytes": 457,
+      "sha256": "9588dd23cd86e80216b7b17a961aac141cd98392e4502d3fcb5cc1244b73edd5"
+    },
+    {
+      "path": "Shared/AppLocalizationKit/Sources/AppLocalizationKit/AppLocalizer.swift",
+      "bytes": 5248,
+      "sha256": "c7669743bab2757de9002058681c01fa1e4b1828810de92f4b2816df451166aa"
+    },
+    {
+      "path": "Shared/AppLocalizationKit/Tests/AppLocalizationKitTests/AppLocalizerTests.swift",
+      "bytes": 2347,
+      "sha256": "a17526e6daa5753bb50c7f8cf54fa797f3e3f09ede39bd2d715ac4eee1fa279a"
+    },
+    {
+      "path": "Shared/AppLocalizationKit/Tests/AppLocalizationKitTests/Fixtures/LocalizationFixture.bundle/Info.plist",
+      "bytes": 373,
+      "sha256": "6496a60b4b8ac8cf4f74a7645ac8fdfd662f7d6aeab08aebaf70793977aeca32"
+    },
+    {
+      "path": "Shared/AppLocalizationKit/Tests/AppLocalizationKitTests/Fixtures/LocalizationFixture.bundle/en.lproj/Localizable.strings",
+      "bytes": 67,
+      "sha256": "73223e8cc4d1464bddd2ab630b3ead85f94d791ab588424278b05eca95aaf09d"
+    },
+    {
+      "path": "Shared/AppLocalizationKit/Tests/AppLocalizationKitTests/Fixtures/LocalizationFixture.bundle/zh-Hans.lproj/Localizable.strings",
+      "bytes": 27,
+      "sha256": "b86d1275f4bffc38cea14a52477feb58a82c245eaabe9ccd222a4552582b64aa"
+    },
+    {
+      "path": "Shared/AppLocalizationKit/Tests/AppLocalizationKitTests/Fixtures/LocalizationFixture.bundle/zh-Hant.lproj/Localizable.strings",
+      "bytes": 27,
+      "sha256": "4a20b23d7d8b82de32523cf21dca75a07213f9c0caa68e11bfc43f64a90b537f"
+    },
+    {
+      "path": "Shared/LocalWorkflowKit/Package.swift",
+      "bytes": 413,
+      "sha256": "e0aa3546600005f1870ea76c8c4547dafee4885c4ce2cb295207a0397ed3a4d2"
+    },
+    {
+      "path": "Shared/LocalWorkflowKit/Sources/LocalWorkflowKit/TextRecipe.swift",
+      "bytes": 1709,
+      "sha256": "dd172406a1b00d726c3777368749112bdf6035de0a2d2d5bea451578c7872209"
+    },
+    {
+      "path": "Shared/LocalWorkflowKit/Sources/LocalWorkflowKit/WorkflowDraft.swift",
+      "bytes": 6319,
+      "sha256": "2beba02749097c5f04247abaf74787cf59a8f9643141c1d4079ae52eb52dc100"
+    },
+    {
+      "path": "Shared/LocalWorkflowKit/Sources/LocalWorkflowKit/WorkflowFiles.swift",
+      "bytes": 5714,
+      "sha256": "f531300a55b5d5c5ea18ff0f74fd9ce68c1d0d6ecfac9123fe511e184d0fff43"
+    },
+    {
+      "path": "Shared/LocalWorkflowKit/Tests/LocalWorkflowKitTests/WorkflowTests.swift",
+      "bytes": 4538,
+      "sha256": "11ae94f4b5de4a2ce5815a29668961c3612989177d3464b59b66d5f437faad64"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 539,
+      "sha256": "82b69722ceb49dac5e876d1f873b972aa90716e1c58cd860c90a0d6b0a1481cf"
+    },
+    {
+      "path": "docs/localization.md",
+      "bytes": 3463,
+      "sha256": "e8f9223a5e6e48c343b0c99ff379e690aaacba46017549c645cf942160b5fe57"
+    },
+    {
+      "path": "scripts/localization/app-info.json",
+      "bytes": 4761,
+      "sha256": "7f7b5694343c6432ef0eeac8e14c565dbe1527adda778d9b535adac5d553e452"
+    },
+    {
+      "path": "scripts/localization/check-catalogs.py",
+      "bytes": 5033,
+      "sha256": "248f66da1ca4a24af60d48c3ddfb79f3a5bde8b084f2982a4a611344fb8bab43"
+    },
+    {
+      "path": "scripts/localization/collect-source-keys.py",
+      "bytes": 2859,
+      "sha256": "383d5775e8993bd7cc21ed6f6fadfb64a5912f71f9619d98532b44e8d16e4c7c"
+    },
+    {
+      "path": "scripts/localization/context-overrides.json",
+      "bytes": 47720,
+      "sha256": "0c962bee80c6bfaf5da3eee0619dd1d50ddc94d08afaa550643da39807e1728b"
+    },
+    {
+      "path": "scripts/localization/english-overrides.json",
+      "bytes": 16183,
+      "sha256": "2a4f1098d13d7fcac0d5bc2d5bfa11b4e4a17fea97148c58d66473295d020893"
+    },
+    {
+      "path": "scripts/localization/english-ui.json",
+      "bytes": 15299,
+      "sha256": "2516f079467e935c92605ebf58f13794cfc8071540ecbdd92382a159d8842d6d"
+    },
+    {
+      "path": "scripts/localization/generate-catalogs.py",
+      "bytes": 4818,
+      "sha256": "36b0841d3abb1924aec1748ee48acee1a19a6a1cbe4fcb07a3aff31c4b306b9c"
+    },
+    {
+      "path": "scripts/localization/localize-swift.swift",
+      "bytes": 10995,
+      "sha256": "9b739b127a589a0d49dc615df65c389f2d407984b665d8819226d757a3441e77"
+    },
+    {
+      "path": "scripts/localization/package-resources.py",
+      "bytes": 2796,
+      "sha256": "27d5989d88f9efc9bb7248e3d2f4da725bc7e52a5f06997d4d51a059f01c9945"
+    },
+    {
+      "path": "scripts/localization/simplify-catalog.swift",
+      "bytes": 1612,
+      "sha256": "a57c567ecc13f0226dff062eacec050db83c3a5a77817530acac83a6999897fe"
+    },
+    {
+      "path": "scripts/localization/translate-catalog.swift",
+      "bytes": 2273,
+      "sha256": "db37713fb62d3d4d9c4e9b739b5ca9b13b349d302f9f653eb73bb537590064d4"
+    }
+  ]
+}
