@@ -1,19 +1,24 @@
 # EdgeNotes
 
-Keep editable notes at the screen edge, with folders, inline images and text calculations.
+[**English**](README.md) · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-Hans.md)
 
-**文字與筆記系列：側邊筆記、圖片、資料夾、範本與即時計算。** Interfaces support English, Traditional Chinese and Simplified Chinese.
+![EdgeNotes banner](assets/hero.svg)
 
-## Features
+![preview](https://img.shields.io/badge/release-0.8.0--preview.1-ffb383?style=flat-square) ![GPLv3](https://img.shields.io/badge/license-GPL--3.0-blue?style=flat-square)
 
-- Open notes from a screen-edge handle; search folders and cards.
-- Paste images with Command–V at the caret, with text before and after them.
-- Use templates, tags, source links and favorite destinations.
-- Write supported calculation results into note text; manage deleted notes in the app's trash.
+**Notes that stay within reach.** A standalone project in the personal macOS tools collection.
 
-## Build and test
+## What it does
 
-Requires macOS 14+, Xcode 27/Swift 6 and Python 3. This repository includes its required shared packages; keep `Shared/` and `scripts/` beside `DeskTools/`.
+- Open notes from the screen edge; organize folders and search cards.
+- Paste inline images with Command–V between text paragraphs.
+- Use templates, tags, source links, favorite destinations, calculations and trash.
+
+## Install a preview
+
+Download the macOS ZIP from [Releases](https://github.com/yoko1234p/EdgeNotes/releases/tag/v0.8.0-preview.1), unzip, and move `EdgeNotes.app` to Applications. This preview uses ad-hoc signing and is **not notarized**. On first launch, use Finder’s **Open** context menu; if macOS blocks it, review **System Settings → Privacy & Security → Open Anyway**. Grant only the permissions you need. Do not install over a working copy without backing up local data.
+
+## Build from source
 
 ```sh
 cd DeskTools
@@ -21,14 +26,12 @@ APP_UI_LANGUAGE=zh-Hant swift test -j 4
 bash Scripts/build.sh release
 ```
 
-The historical package directory is named `DeskTools`, but this repository includes only EdgeNotes and its required shared modules/tests. The app bundle is written to `DeskTools/dist/EdgeNotes.app`. Building does not install or launch it. See [SIGNING.md](SIGNING.md) for ad-hoc development and your own signing identity.
+The required local `Shared/` packages and build helpers are included. Building does not install or launch the app.
 
-## Use and limitations
+## Requirements and limits
 
-Notes are stored under `~/Library/Application Support/EdgeNotes/`. Export important data before testing changes to storage or importing backups. The editor supports a bounded Markdown/inline-image workflow, not full rich-text or iCloud synchronization. Calculations support defined expressions rather than unrestricted natural language; exchange rates show their update date.
+macOS 14+; Xcode 27/Swift 6 and Python 3 for source builds. Notes are stored under ~/Library/Application Support/EdgeNotes/. Export important data before storage changes. The editor is not a full rich-text editor or iCloud sync client; calculation syntax is bounded, and exchange rates have an update date.
 
-## Development and license
+## Contribute and license
 
-This app is under active development. Report the macOS version, reproduction steps and actual validation results with changes. Use synthetic data for file, clipboard and permission tests. Validate interface catalogs from the repository root with `python3 scripts/localization/check-catalogs.py`.
-
-Original maintained code is **GPL-3.0-only**. Keep the separate dependency/data notices listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). See [LICENSE](LICENSE) and [CONTRIBUTING.md](CONTRIBUTING.md).
+Original application code is GPL-3.0-only. Keep bundled third-party and data notices; see [LICENSE](LICENSE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [SECURITY.md](SECURITY.md).
